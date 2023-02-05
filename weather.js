@@ -57,6 +57,6 @@ app.post("/", function(req, res) {
   res.redirect("/");
 });
 
-app.listen(300, function() {
-  console.log("Server is running at port 300");
+app.listen(3000, function() {
+  console.log("Server is running at port 3000");
 });
